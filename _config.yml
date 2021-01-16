@@ -14,7 +14,7 @@ author: Copyright © Mikolaj Jaworski
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Home: "mikolaj-jaworski.github.io"
+  Home: ""
   About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
