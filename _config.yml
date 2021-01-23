@@ -16,9 +16,11 @@ author: Copyright © Mikolaj Jaworski
 navbar-links:
   Home: "index"
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Articles: "Index"
+  Projects:
+    - P1: "https://mikolaj-jaworski.github.io/"
+    - P2: "https://mikolaj-jaworski.github.io/"
+  
   
 
 # --- Logo --- #
