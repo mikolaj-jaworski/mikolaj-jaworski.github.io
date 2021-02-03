@@ -13,7 +13,3 @@ Currently I work at **LOT Polish Airlines** in Operations Reasearch & Analytics 
 - Complaint prediction, which is a combination of classification and regression problem, with a goal of estimating number of requests for compensation when the flight was somehow disturbed.
 - Weather delay prediction, which is based mainly on METAR and TAF reports. This is a part of multiple models for predicting delays in general.
 - Network simulation, where we have to test the stability (sometimes even executability) of the fleet schedule and spot the bottlenecks, if any exist.
-
-Beforehand, I spent a year working in insurance sector, at **Accenture** and **EY**. The most relevant work done there was:
-- Accenture: prototyping fraud detection model, which had to spot suspicious client's claims.
-- EY: developing app for capital reserve estimation (entirely deterministic), where I was responsible for back-end computing engine and front-end reporting.
