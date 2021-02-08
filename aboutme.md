@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: ... but you can find shorter version <a href="https://mikolaj-jaworski.github.io">here</a>.
+#subtitle: ... but you can find shorter version <a href="https://mikolaj-jaworski.github.io">here</a>.
 ---
 <center> <h3>Skills</h3> </center>
 - **Programming**: The lang that I use the most and is my favourite is Python. Despite having relevant experiences with R and SAS, I consider them less universal comparing to others. Moreover, I am interested in getting better with Julia for heavy scientific computing and learning Scala for big data engineering. <br>
@@ -9,7 +9,12 @@ subtitle: ... but you can find shorter version <a href="https://mikolaj-jaworski
 - **Cloud Engineering**: Currently Azure ecosystem is part of my daily work. Main services are: DataFactory, Functions, MachineLearning, Databricks. Also I am familiar with Google Cloud services, but so far it is only course-based knowledge. My goal is to become proficient in data engineering and MLOps in the Cloud.
 
 <center> <h3>Experience</h3> </center>
-Currently I work at **LOT Polish Airlines** in Operations Reasearch & Analytics team, but our tasks are coming from every part of the company. We are automating processes, creating visualization dashboards and reports, designing ETL pipelines, building prediction systems. To be more specific, some of projects that I work on are:
-- Complaint prediction, which is a combination of classification and regression problem, with a goal of estimating number of requests for compensation when the flight was somehow disturbed.
-- Weather delay prediction, which is based mainly on METAR and TAF reports. This is a part of multiple models for predicting delays in general.
-- Network simulation, where we have to test the stability (sometimes even executability) of the fleet schedule and spot the bottlenecks, if any exist.
+I changed insurance industry (Accenture and EY) to **LOT Polish Airlines**, where I work as Data Scientist & Engineer. I was always looking for working on something *touchable*, which would give me the opportunity to use my technical and analytical skills and see the real outcome. In the **Operations Research & Analytics team** we are tackling various tasks in the company, which converge to improvement of performance (punctuality and regularity) of the entire entity, which makes this goal very complex. It can be split into many sub-problems in many sectors of company's activities or phases from planning through execution to evaluation. <br>
+Among many others, the list of my latest projects include:
+- Predicting flight delays caused by weather, which would be the part of the ensemble, but may be used as separate service.
+- Predicting number of passenger complaints per flight and eventually scoring passenger's propensity to complain.
+- Fleet network performance simulation optimizing aircraft routing in order to minimize cumulative delay (or other specified target) by spotting bottlenecks and modify schedule if necessary.
+
+<center> <h3>Education</h3> </center>
+I graduated from Warsach School of Economics with **Master's degree in Advanced Analytics**. For thesis, I decided to research medical image classification and convolutional neural networks. You can check the results [here](https://github.com/mikolaj-jaworski/histopathologic_cancer_detection). Also I was doing **second Master's degree in Quantitative Methods & Information Systems**, but my second thesis involving simulation modeling in evaluating airline schedules still remains undefended.
+

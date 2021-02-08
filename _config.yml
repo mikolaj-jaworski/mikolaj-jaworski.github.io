@@ -16,7 +16,7 @@ author: Copyright © Mikolaj Jaworski
 navbar-links:
   Home: "index"
   About Me: "aboutme"
-  Posts: "notes"
+  #Posts: "notes"
   Projects: "https://github.com/mikolaj-jaworski"
   
   
