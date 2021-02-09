@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-#subtitle: ... but you can find shorter version <a href="https://mikolaj-jaworski.github.io">here</a>.
+subtitle: ... but you can just check my <a href="https://github.com/mikolaj-jaworski/mikolaj-jaworski.github.io/blob/master/files/CV.pdf">CV</a>.
 ---
 <center> <h3>Skills</h3> </center>
 - **Programming**: The lang that I use the most and is my favourite is Python. Despite having relevant experiences with R and SAS, I consider them less universal comparing to others. Moreover, I am interested in getting better with Julia for heavy scientific computing and learning Scala for big data engineering. <br>
