@@ -11,11 +11,11 @@ subtitle: ... but you can just check my <a href="https://github.com/mikolaj-jawo
     </tr>
     <tr>
         <td><b>Analytics</b></td>
-        <td>I have experience with machine learning for classification, regression and (less often) clustering tasks. I use packages like scikit-learn, lightgbm, keras, pytorch (fastai). I have been doing simulations modeling and optimisation using genetic algorithms too. To visualize the results of my analyses I use PowerBI. Lastly, writing SQL queries is not an issue for me.</td>
+        <td>I have experience with machine learning for classification, regression and (less often) clustering tasks. I use packages like pandas, numpy, scikit-learn, lightgbm, keras, pytorch (fastai). I have been doing simulations modeling and optimisation using genetic algorithms too. To visualize the results of my analyses I use PowerBI. Lastly, writing SQL queries is my bread and butter.</td>
     </tr>
     <tr>
         <td><b>Cloud Engineering</b></td>
-        <td>Currently Azure ecosystem is part of my daily work. Main services are: DataFactory, Functions, MachineLearning. Also I am familiar with Google Cloud services, which I am currently focusing on. My goal is to become proficient in data engineering and MLOps in the Cloud.</td>
+        <td>Currently Azure ecosystem is part of my daily work. Main services I use are: DataFactory, Functions, MachineLearning. Also I am familiar with Google Cloud, which I am currently focusing on to learn. My goal is to become proficient in data engineering and MLOps in the Cloud.</td>
     </tr>
 </table>
 

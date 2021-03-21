@@ -5,6 +5,7 @@ subtitle:
 tags: [azure, durable functions]
 comments: false
 ---
+**This note was updated on 21/03/2021**
 ### Overview 
 People who just came across Azure Functions may don't even know that there is another, more powerful version of this service - **Durable Functions**. The main difference is the workload that we can pass to the function. According to the [documentation](https://docs.microsoft.com/pl-pl/azure/azure-functions/functions-scale), for the most common HTTP-triggered functions the maximum time of waiting for response to the request is 230 seconds, which can be not enough for more complex cases. Thanks to [asynchronous pattern](http://dontcodetired.com/blog/post/Understanding-Azure-Durable-Functions-Part-9-The-Asynchronous-HTTP-API-Pattern), **durable functions don't have such time limit**. The second difference (and very useful feature) is **Orchestrator**, which allows us to chain the set of multiple functions and execute them in desired order, which makes them very useful for multi-step data processing. The service cost is related to the workload, but it is considered very cheap.
 
@@ -77,4 +78,21 @@ Having connection we can move to **creating pipeline**.
 
 Finally, we **add WebActivity step**, which monitors if function activities are done. We need to set dynamic parameter: *@activity('previous_step_name').output.statusQueryGetUri* with GET method.
 
-That is all for now. The post may be extended in the future.
+### Accessing Key Vault from Azure Function
+This concept was nicely explained [here](https://daniel-krzyczkowski.github.io/Integrate-Key-Vault-Secrets-With-Azure-Functions/). To put it briefly, we need to perform two steps that will create connection between KeyVault and AzureFunction.
+- We need to setup [Managed Identity](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview) in Function App resource. So we go to *Identity* tab, then we change *System assigned/Status* to *ON* and save the changes.
+- We go to our KeyVault resource and enter *Access policies* tab. Click *Add access policy*, where we set *GET* and *LIST* permissions for needed elements (in our case - secrets). In *Select principal* field we choose our Function App. *Authorized Application* can remain unchanged. Then save the changes.
+
+And that is it. From now our function can access secrets stored in KeyVault. To get them, we can use the code below:
+
+```python
+from azure.identity import ManagedIdentityCredential
+from azure.keyvault.secrets import SecretClient
+
+def get_secret(secret_name: str) -> str:
+    identity = ManagedIdentityCredential()
+    secretClient = SecretClient(vault_url = '<KEY VAULT URL>', credential = identity)
+    secret = secretClient.get_secret(secret_name)
+    return secret.value
+```
+Unfortunately, it only works on deployed function (because of credential issues). I may be missing something when running it locally, but so far this is how I see this.
