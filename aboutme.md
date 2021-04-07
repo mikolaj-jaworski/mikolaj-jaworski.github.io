@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: ... but you can just check my <a href="https://github.com/mikolaj-jaworski/mikolaj-jaworski.github.io/blob/master/files/CV.pdf">CV</a>.
+subtitle: ... or you can just check my <a href="https://github.com/mikolaj-jaworski/mikolaj-jaworski.github.io/blob/master/files/CV.pdf">CV</a>.
 ---
 <center> <h3>Skills</h3> </center>
 <table border=1>
