@@ -27,6 +27,8 @@ Among many others, the list of my latest projects include:
     <li>Predicting flight delays caused by weather, which would be the part of the ensemble, but may be used as separate service.</li>
     <li>Predicting number of passenger complaints per flight and eventually scoring passenger's propensity to complain.</li>
     <li>Fleet network performance simulation optimizing aircraft routing in order to minimize cumulative delay (or other specified target) by spotting bottlenecks and modify schedule if necessary.</li>
+    <li>Optimizing on-board product stock by estimating clients demand.</li>
+    <li>Mapping actual path of the airplane in the airspace for ATM cost verification.</li>
 </ul>
 Beforehand, I spent one year in insurance sector, initially as an <b>Intern at Accenture</b> and later as a <b>Data Analyst at EY</b>. I can highlight two projects from that time:
 <ul>
