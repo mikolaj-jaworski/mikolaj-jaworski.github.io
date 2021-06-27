@@ -43,7 +43,7 @@ Among many others, the list of my latest projects include:
     <li>Mapping actual path of the airplane in the airspace for ATM cost verification.</li>
 </ul>
 <center>
-  <img src="/assets/img/accenture_logo.png" width="80" height="80"> <b>&</b>
+  <img src="/assets/img/accenture_logo.png" width="80" height="80"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
   <img src="/assets/img/EY_logo.png" width="80" height="80">
 </center>
 <br>
